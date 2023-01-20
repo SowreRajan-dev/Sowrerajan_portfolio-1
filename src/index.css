@@ -1,0 +1,68 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.field-group {
+  width: 100%;
+  position: relative;
+  padding-top: 15px;
+}
+
+.input-field {
+  width: 100%;
+  outline: 0;
+  border: 2px solid #999999;
+  padding: 10px;
+  background: transparent;
+  font-size: 20px;
+  transition: 0.3s ease;
+  color: white;
+}
+
+.input-label {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 10px;
+  padding: 5px;
+  color: white;
+  transition: 0.3s ease;
+  background: #111827;
+}
+
+@media only screen and (max-width: 768px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-top {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .footer-bottom {
+    width: 100%;
+    margin-top: 20px;
+    border-top: 1px solid white;
+  }
+
+  .skills-container {
+    width: 5rem;
+    height: 5rem;
+  }
+
+  .skills-text {
+    font-size: 1rem;
+  }
+
+  .name {
+    font-size: 1.5rem;
+  }
+  .aboutContent {
+    font-size: 1rem;
+  }
+}
