@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <div className="flex items-center justify-center flex-col">
+      <div className="flex items-center justify-center flex-col block">
         <AboutMe />
       </div>
       <div className="m-20 ">
